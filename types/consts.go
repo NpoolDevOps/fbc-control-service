@@ -6,3 +6,10 @@ const (
 	DeleteDeployAPI = "/api/v0/deploy/delete"
 	MyDeploiesAPI   = "/api/v0/deploy/mine"
 )
+
+const (
+	DeployTypeFilecoin = "filecoin"
+	DeployTypeFilecash = "filecash"
+	DeployTypeChia     = "chia"
+	DeployTypeSwarm    = "swarm"
+)
